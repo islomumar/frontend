@@ -1,0 +1,96 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    width: 300px;
+    height:425px;
+    background-color: #fff;
+    margin:0 auto;
+    margin-top:30px;
+    position: relative;
+    border-radius: 7px;
+
+}
+
+/*shakatulkani width berilgan*/
+.shikatulka{
+    width: 290px;
+    margin:5px ;
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+
+/*Shikatulka yangi*/
+
+.green .shika{
+    margin-top:30px;
+    margin-left:10px;
+    font-weight: 600;
+    margin-bottom:0;
+}
+.yangi{
+    background-color: green;
+    color: #fff;
+    padding:2px 5px;
+    border-radius: 4px;
+}
+
+/*qo'l mehnati*/
+.bold{
+    font-weight: 600;
+    margin-left:10px;
+    margin-top:10px;
+}
+/*payme*/
+.uzcard{
+    display: flex;
+}
+.payme{
+    width: 100px;
+    border-radius: 12px;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+span{
+    background-color: red;
+    font-size: 18px;
+    padding:3px 10px ;
+    margin-left:30px;
+    margin-top:10px;
+    border-radius:5px;
+    color: #fff;
+}
+
+/*paymeni yonidegi*/
+.narx p{
+    margin-left:50px;
+    margin-bottom:0;
+}
+.size{
+    font-size: 22px;
+    margin-top:5px;
+    font-weight: 600;
+
+}
+.m-t{
+    margin-top:5px;
+}
+.font{
+    font-size: 12px;
+}
+.sovga{
+    width:55px;
+    height: 55px;
+    background-color: gold;
+    text-align-last: center;
+    border-radius: 50%;
+    color:#fff;
+    font-size: 15px;
+    position: absolute;
+    top:7px;
+    right:7px;
+}
+.cen{
+    padding-top: 2px;
+
+}

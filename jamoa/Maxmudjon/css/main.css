@@ -1,0 +1,57 @@
+/******** FONT STYLE ********/
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/Open_sans/OpenSans-Bold.ttf") format("truetype") !important; }
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/Open_sans/OpenSans-Light.ttf") format("truetype") !important; }
+@font-face {
+  font-family: "OpenSans-Regular";
+  _src: url("../fonts/Open_sans/OpenSans-Regular.ttf") format("truetype") !important; }
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../fonts/Open_sans/OpenSans-SemiBold.ttf") format("truetype") !important; }
+.font-family-bold {
+  font-family: "OpenSans-Bold", "OpenSans-Regular", sans-serif !important; }
+
+.font-family-light {
+  font-family: "OpenSans-Light", "OpenSans-Regular", sans-serif !important; }
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif !important; }
+
+.font-family-semibold {
+  font-family: "OpenSans-SemiBold", "OpenSans-Regular", sans-serif !important; }
+
+body .container .row:nth-child(2) h5 {
+  color: #242464;
+  margin-left: 380px; }
+body .container .row:nth-child(2) button {
+  margin-left: 380px;
+  background-color: #242464; }
+body .container .row .col-md-6 p {
+  font-size: 13px; }
+body .container .row .col-md-6 h5 {
+  color: #242464; }
+body .container .row .col-md-5 h5 {
+  color: #242464; }
+body .container .row .col-md-5 span {
+  background-color: #EEEEEE;
+  padding: 5px;
+  margin-left: 250px;
+  position: relative; }
+body .container .row .col-md-5 span::after {
+  content: '';
+  position: absolute;
+  top: -16px;
+  right: 12px;
+  border: 8px solid #eeeeee;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent; }
+body .container .row label {
+  color: #242464; }
+body .container .row .progress .progress-bar {
+  background-color: #242464; }
+
+/*# sourceMappingURL=main.css.map */

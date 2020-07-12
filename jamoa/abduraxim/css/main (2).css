@@ -1,0 +1,33 @@
+section#information .container .row .col-md-4 {
+  position: relative; }
+  section#information .container .row .col-md-4 .card img {
+    width: 380px;
+    height: 235px; }
+  section#information .container .row .col-md-4 .card .par {
+    position: absolute;
+    top: 74px;
+    right: 15px;
+    font-size: 30px;
+    color: blue;
+    font-weight: bolder; }
+section#information .row .col-md-4 .card {
+  align-items: center; }
+  section#information .row .col-md-4 .card .user-image1 {
+    width: 142px;
+    height: 125px;
+    background-image: url("../img/icons.png");
+    background-repeat: no-repeat; }
+  section#information .row .col-md-4 .card .user-image2 {
+    width: 142px;
+    height: 125px;
+    background-image: url("../img/icons.png");
+    background-repeat: no-repeat;
+    background-position-x: -142px; }
+  section#information .row .col-md-4 .card .user-image3 {
+    width: 142px;
+    height: 125px;
+    background-image: url("../img/icons.png");
+    background-repeat: no-repeat;
+    background-position-x: -285px; }
+
+/*# sourceMappingURL=main.css.map */

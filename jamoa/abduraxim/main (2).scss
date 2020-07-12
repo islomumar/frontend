@@ -1,0 +1,53 @@
+section {
+&#Abduraxim {
+.container  {
+  .row  {
+    .col-md-4 {
+      position: relative;
+      .card {
+        img {
+          width: 380px;
+          height: 235px;
+        }
+        .par {
+          position: absolute;
+          top: 74px;
+          right: 15px;
+          font-size: 30px;
+          color: blue;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+}
+  .row  {
+    .col-md-4 {
+      .card {
+        align-items: center;
+        .user-image1{
+          width: 142px;
+          height: 125px;
+          background-image: url("../img/icons.png");
+          background-repeat:no-repeat ;
+        }
+        .user-image2{
+          width: 142px;
+          height: 125px;
+          background-image: url("../img/icons.png");
+          background-repeat:no-repeat ;
+          background-position-x: -142px;
+        }
+        .user-image3{
+          width: 142px;
+          height: 125px;
+          background-image: url("../img/icons.png");
+          background-repeat:no-repeat;
+          background-position-x: -285px;
+        }
+
+      }
+    }
+  }
+}
+}

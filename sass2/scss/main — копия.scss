@@ -1,0 +1,579 @@
+/*********************fonts style****************/
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/Open-Sans/OpenSans-Bold.ttf") format('truetype') ;
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/Open-Sans/OpenSans-light.ttf") format('truetype') ;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/Open-Sans/OpenSans-Regular.ttf") format('truetype') ;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../fonts/Open-Sans/OpenSans-SemiBold.ttf") format('truetype');
+}
+
+.font-family-bold {
+  font-family: "OpenSans-Bold", "OpenSans-Regular", sans-serif !important;
+}
+
+.font-family-light {
+  font-family: "OpenSans-Light", "OpenSans-Regular", sans-serif !important;
+}
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif !important;
+}
+
+.font-family-Semi-Bold {
+  font-family: "OpenSans-SemiBold", sans-serif !important;
+}
+
+
+/*********colors style*******/
+$color-grey: #f1f1f1;
+$color-silver: #858585;
+$color-icons: #949494;
+$color-button: #5a077d;
+$color-green: #45d881;
+$color-green-2: #12d21d;
+$color-white: #ffffff;
+$color-black: #000000;
+/*********mixins style********/
+@mixin mask-image($url) {
+  mask-image: url($url);
+  -webkit-mask-image: url($url);
+}
+
+/********icons style**********/
+.icon-lg {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  mask: {
+    repeat: no-repeat;
+    size: 100%;
+    position: center;
+  }
+  -webkit-mask: {
+    repeat: no-repeat;
+    size: 100%;
+    position: center;
+  }
+  background-color: $color-icons;
+  vertical-align: sub;
+
+  &.icon-search {
+    @include mask-image("../images/icons/search.svg");
+
+  }
+
+  &.icon-heart {
+    @include mask-image("../images/icons/heart.svg");
+
+  }
+
+  &.icon-basket {
+    @include mask-image("../images/icons/shopping-cart.svg");
+
+  }
+
+  &.icon-eye {
+    @include mask-image("../images/icons/eye.svg");
+
+  }
+
+  &.icon-download {
+    @include mask-image("../images/icons/download.svg");
+  }
+
+  &.icon-email {
+    @include mask-image("../images/icons/mail.svg");
+
+  }
+
+  &.icon-phone {
+    @include mask-image("../images/icons/phone.svg");
+
+  }
+
+  &.icon-location {
+    @include mask-image("../images/icons/map-pin.svg");
+
+  }
+
+  &.icon-white {
+    background-color: #fff;
+
+  }
+
+  &.icon-violet {
+    background-color: $color-button;
+
+  }
+
+  &.icon-green {
+    background-color: $color-green;
+
+  }
+
+}
+
+.icon-md {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  mask: {
+    repeat: no-repeat;
+    size: 100%;
+    position: center;
+  }
+  -webkit-mask: {
+    repeat: no-repeat;
+    size: 100%;
+    position: center;
+  }
+  background-color: $color-icons;
+  vertical-align: sub;
+
+  &.icon-search {
+    @include mask-image("../images/icons/search.svg");
+
+  }
+
+  &.icon-heart {
+    @include mask-image("../images/icons/heart.svg");
+
+  }
+
+  &.icon-basket {
+    @include mask-image("../images/icons/shopping-cart.svg");
+
+  }
+
+  &.icon-eye {
+    @include mask-image("../images/icons/eye.svg");
+
+  }
+
+  &.icon-download {
+    @include mask-image("../images/icons/download.svg");
+  }
+
+  &.icon-email {
+    @include mask-image("../images/icons/mail.svg");
+
+  }
+
+  &.icon-phone {
+    @include mask-image("../images/icons/phone.svg");
+
+  }
+
+  &.icon-location {
+    @include mask-image("../images/icons/map-pin.svg");
+
+  }
+
+  &.icon-white {
+    background-color: #fff;
+
+  }
+
+
+  &.icon-violet {
+    background-color: $color-button;
+
+  }
+
+  &.icon-green {
+    background-color: $color-green;
+
+  }
+
+
+}
+
+.icon-sm {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  mask: {
+    repeat: no-repeat;
+    size: 100%;
+    position: center;
+  }
+  -webkit-mask: {
+    repeat: no-repeat;
+    size: 100%;
+    position: center;
+  }
+  background-color: $color-icons;
+  vertical-align: sub;
+
+  &.icon-search {
+    @include mask-image("../images/icons/search.svg");
+
+  }
+
+  &.icon-heart {
+    @include mask-image("../images/icons/heart.svg");
+
+  }
+
+  &.icon-basket {
+    @include mask-image("../images/icons/shopping-cart.svg");
+
+  }
+
+  &.icon-eye {
+    @include mask-image("../images/icons/eye.svg");
+
+  }
+
+  &.icon-download {
+    @include mask-image("../images/icons/download.svg");
+  }
+
+  &.icon-email {
+    @include mask-image("../images/icons/mail.svg");
+
+  }
+
+  &.icon-phone {
+    @include mask-image("../images/icons/phone.svg");
+
+  }
+
+  &.icon-location {
+    @include mask-image("../images/icons/map-pin.svg");
+
+  }
+
+  &.icon-white {
+    background-color: #fff;
+
+  }
+
+  &.icon-violet {
+    background-color: $color-button;
+
+  }
+
+  &.icon-green {
+    background-color: $color-green;
+
+  }
+
+
+}
+
+.text-violet {
+  color: $color-button;
+}
+
+.text-green {
+  color: $color-green-2;
+}
+
+.bg-violet {
+  background-color: $color-button;
+}
+
+/**********main style****************/
+body {
+  background-color: $color-grey;
+
+  nav.navbar {
+    .navbar-brand {
+      h4 {
+        font-size: 18px;
+        margin-top: 8px;
+      }
+
+      p {
+        font-size: 14px;
+        margin-top: 3px;
+      }
+    }
+
+    .input-group {
+      width: 40%;
+      margin-left: 7rem;
+
+      input, button {
+        background-color: $color-grey;
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
+  header {
+    .carousel {
+      .carousel-indicators {
+        li {
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          border: 1px solid #fff;
+          background-color: transparent;
+          opacity: 1;
+        }
+
+        .active {
+          background-color: #fff;
+        }
+      }
+
+      .carousel-inner {
+        .carousel-item {
+          .carousel-sloy {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: rgba(90, 7, 125, 0.5);
+          }
+
+          h3 {
+            top: 78px;
+            right: 44px;
+            z-index: 1;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    section {
+      &#video {
+        h3 {
+          font-size: 22px;
+        }
+
+        .nav {
+          .nav-item {
+            .nav-link {
+              color: $color-silver;
+
+              &:after {
+                content: '';
+                height: 2px;
+                background-color: $color-button;
+                display: block;
+                transform: scaleX(0);
+                transition-duration: 0.5s;
+
+              }
+
+              &:hover {
+                color: #000;
+
+                &:after {
+                  transform: scaleX(1) translateY(5px);
+                }
+              }
+            }
+          }
+        }
+
+        a.position-absolute {
+          top: 10px;
+          right: 10px;
+
+        }
+
+        .d-flex {
+          font-size: 13px;
+          color: $color-icons;
+
+          .line {
+            height: 10px;
+            width: 1px;
+            margin-left: 10px;
+            margin-top: 6px;
+
+            background-color: $color-icons;
+          }
+        }
+      }
+    }
+
+    section {
+      &#audio {
+        h3 {
+          font-size: 20px;
+        }
+
+        .nav {
+          .nav-item {
+            .nav-link {
+              color: $color-silver;
+
+              &:after {
+                content: '';
+                height: 2px;
+                background-color: $color-button;
+                display: block;
+                transform: scaleX(0);
+                transition-duration: 0.5s;
+
+              }
+
+              &:hover {
+                color: #000;
+
+                &:after {
+                  transform: scaleX(1) translateY(5px);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .container {
+      h4 {
+        font-size: 20px;
+      }
+
+      button {
+        border-radius: 10px;
+
+      }
+
+      .row {
+        .col {
+          .book {
+            overflow: hidden;
+            width: 200px;
+            height: 314px;
+            transition-duration: .5s;
+
+            .img {
+              transition: 0.5s;
+            }
+
+            &:hover .img {
+              opacity: 0.5;
+            }
+
+            &:hover .button {
+              opacity: 1;
+            }
+
+            img {
+              width: 200px !important;
+              height: 100% !important;
+              text-align: center !important;
+            }
+
+            .button {
+              top: 130px;
+              left: 58px;
+              opacity: 0;
+              transition-duration: .5s;
+
+              &:hover {
+                opacity: 1;
+
+              }
+
+              button {
+                width: 40px;
+                height: 40px;
+                padding: 1px;
+                border-radius: 10px;
+                transition-duration: 0.5s;
+              }
+            }
+
+
+            .paid {
+              width: 100px;
+              height: 25px;
+              background-color: $color-white;
+              text-align: center;
+              transform: rotate(45deg);
+              top: 11px;
+              right: -25px;
+            }
+          }
+
+
+          h6 {
+            font-size: 14px;
+          }
+
+          .d-flex {
+            font-size: 10px;
+            color: $color-silver;
+          }
+        }
+      }
+    }
+
+    section {
+
+      .container {
+        top: 210px;
+        left: 105px;
+
+        .row {
+
+          .col-md-4 {
+            .d-flex {
+              .ml-4 {
+                color: $color-white;
+
+                h6 {
+
+                  font-size: 14px;
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section{
+      &#janr{
+        .container{
+          .row{
+            .col-md-3{
+              .nav{
+                .nav-item{
+                  .nav-link{
+                    color:$color-silver;
+                    &:hover{
+                      color:$color-black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+

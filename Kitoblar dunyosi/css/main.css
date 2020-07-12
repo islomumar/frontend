@@ -1,0 +1,241 @@
+body {
+    background-color: #f1f1f1;
+}
+.m-l{
+    margin-left: 10px;
+}
+.m-t{
+    margin-top: 40px;
+}
+.mish{
+    cursor: pointer;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Calibri;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.list {
+    padding: 0;
+}
+
+.navbar .list .list-item {
+    display: inline-block;
+}
+
+.navbar .list .list-item a {
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 22px;
+    padding: 0;
+    color: gray;
+}
+
+.navbar .list .list-item a:hover{
+    color: #000;
+    font-weight: bold;
+    font-size: 21.5px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #6e268d;
+    box-sizing: border-box;
+}
+.navbar .list .list-item:nth-child(1):focus{
+    background-color: #6e268d;
+}
+.text-2 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 22px;
+}
+
+.row {
+    width: 1200px;
+    height: 401px;
+    display: flex;
+}
+
+.col {
+    position: relative;
+    width: 216px;
+    overflow: hidden;
+}
+
+.garry {
+    width: 215.99px;
+    height: 330px;
+
+}
+
+.garry:hover .like, .garry:hover .shopping {
+    display: block;
+    cursor: pointer;
+
+
+}
+
+.garry:hover {
+    opacity: 0.7;
+}
+
+.book {
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    top: 20px;
+    right: -40px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #6e268d;
+    font-weight: bold;
+    text-align: center;
+    transform: skew(-45deg, 45deg) ;
+}
+.book-2{
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    top: 20px;
+    right: -40px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    background-color: #e1e1e1;
+    color: #00e600;
+    font-weight: bold;
+    text-align: center;
+    transform: skew(-45deg, 45deg);
+}
+
+.money {
+    margin:-7px 2px;
+
+}
+
+.money-2{
+    margin: -7px 2px;
+    font-size: 15px;
+}
+.none {
+    display: none;
+}
+
+.icon-img {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    /*display: none;*/
+    position: absolute;
+    top: 130px;
+    left: 70px;
+
+}
+
+.like {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-right: 5px;
+
+}
+
+.like img {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.shopping {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+
+.shopping img {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.text-3 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.text-4 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.p-t {
+    padding: 2px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.m-l {
+    margin-left: 30px;
+    color: gray;
+}
+
+.ml {
+    margin-left: 47px;
+    color: gray;
+}
+
+.font {
+    font-size: 12px;
+}
+
+.color {
+    color: gray;
+}
+
+.img-2 {
+    width: 12px;
+    height: 12px;
+}
+
+.img-3 {
+    width: 10px;
+    height: 10px;
+}
+
+.row-2 {
+    display: flex;
+}
+.btn{
+    width: 140px;
+    height: 30px;
+    border: 2px solid #6e268d;
+    text-align: center;
+    padding-top:2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color:#6e268d;
+    font-weight: bold;
+    margin:0 auto;
+    margin-top:50px;
+}
+.btn:hover{
+    background-color: #6e268d;
+    color: white;
+    cursor: pointer;
+}
+
+
+

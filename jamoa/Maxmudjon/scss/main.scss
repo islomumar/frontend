@@ -1,0 +1,119 @@
+$asosiy-rang: #242464;
+$size: 13px;
+
+.box::before {
+}
+
+/******** FONT STYLE ********/
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/Open_sans/OpenSans-Bold.ttf") format('truetype') !important;
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/Open_sans/OpenSans-Light.ttf") format('truetype') !important;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  _src: url("../fonts/Open_sans/OpenSans-Regular.ttf") format('truetype') !important;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../fonts/Open_sans/OpenSans-SemiBold.ttf") format('truetype') !important;
+}
+
+.font-family-bold {
+  font-family: "OpenSans-Bold", "OpenSans-Regular", sans-serif !important;
+}
+
+.font-family-light {
+  font-family: "OpenSans-Light", "OpenSans-Regular", sans-serif !important;
+}
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif !important;
+}
+
+.font-family-semibold {
+  font-family: "OpenSans-SemiBold", "OpenSans-Regular", sans-serif !important;
+}
+
+
+body {
+  section {
+    &#maxmutjon {
+      .container {
+        .row {
+          &:nth-child(2) {
+            h5 {
+              color: $asosiy-rang;
+              margin-left: 380px;
+
+            }
+
+            button {
+              margin-left: 380px;
+              background-color: $asosiy-rang;
+            }
+          }
+
+          .col-md-6 {
+            p {
+              font-size: $size;
+            }
+
+            h5 {
+              color: $asosiy-rang;
+            }
+          }
+
+          .col-md-5 {
+            p {
+            }
+
+            h5 {
+              color: $asosiy-rang;
+            }
+
+            span {
+              background-color: #EEEEEE;
+              padding: 5px;
+              margin-left: 250px;
+              position: relative;
+            }
+
+            span::after {
+              content: '';
+              position: absolute;
+              top: -16px;
+              right: 12px;
+              border: 8px solid #eeeeee;
+              border-top-color: transparent;
+              border-left-color: transparent;
+              border-right-color: transparent;
+
+            }
+
+          }
+
+          input {
+          }
+
+          label {
+            color: $asosiy-rang;
+          }
+
+          .progress {
+            .progress-bar {
+              background-color: $asosiy-rang;
+            }
+          }
+        }
+      }
+    }
+  }
+}

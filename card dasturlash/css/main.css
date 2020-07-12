@@ -1,0 +1,91 @@
+.card{
+    height: 250px;
+    position: relative;
+}
+.card:hover {
+    box-shadow: 0 0 40px rgba(83, 109, 253, 0.15);
+}
+.hover{
+    font-weight: bold;
+}
+.card:hover .hover{
+    color: #536dfd;
+    font-weight: bold;
+}
+.bg-border:hover {
+    background-color:#536dfd ;
+    border: 1px solid transparent;
+    color:#fff;
+}
+.bg-border:hover i{
+    color:#fff;
+}
+.bg-border{
+    width: 35px;
+    height: 35px;
+    border-radius:50% ;
+    text-align: center;
+    padding-top: 4px;
+    padding-left:11px;
+    position: absolute;
+    top: 188px;
+    right: 32px;
+    border:1px solid #536dfd;
+}
+.bg-border i{
+    font-size: 25px;
+    color:#536dfd;
+}
+.bg-border:focus {
+    border:1px solid #536dfd;
+    background-color:#536dfd;
+    color:#fff;
+}
+.bg-border:focus i{
+    color: #fff;
+}
+
+.color{
+    color: rgba(187, 187, 187, 0.7);
+    font-size: 13px;
+}
+
+.font{
+    font-size: 15px;
+    color:#000;
+    font-weight: bold;
+}
+.size{
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.nomer{
+    color: #cccccc;
+}
+ul li a{
+    color: gold;
+}
+ul li a:hover{
+    color: gold;
+}
+ul li:nth-child(5) a{
+    color: grey;
+}
+ul li:nth-child(5) a:hover{
+    color: gold;
+}
+.background{
+    background-color: #10c8a0;
+    color:#fff;
+    position: absolute;
+    top: 16px;
+    left:32px;
+    height: 26px;
+    width: 100px;
+}
+.background:hover{
+    color:#fff;
+}
+
+
